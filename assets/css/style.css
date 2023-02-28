@@ -1,0 +1,355 @@
+/*******************************
+CSS COMMUN
+*******************************/
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-family: "Inter";
+}
+
+body {
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    line-height: auto;
+}
+
+h1 {
+    font-size: 40pt;
+    font-weight: 100;
+    font-style: light;
+    text-align: center;
+}
+
+h2 {
+    font-size: 80pt;
+    font-weight: 300;
+    line-height: auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 80pt;
+    font-family: "inter";
+    font-weight: 500;
+    line-height: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 26pt;
+    font-family: "inter";
+    line-height: 36pt;
+    font-weight: 300;
+}
+
+legend {
+    font-size: 15pt;
+    line-height: auto;
+    text-align: center;
+}
+
+b, strong {
+    font-family: "inter";
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Bouton */
+.btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(67, 94, 254, 1);
+    border-style: none;
+    border-radius: 40px;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 24pt;
+    letter-spacing: 0,7pt;
+    text-transform: uppercase;
+    margin: auto;
+    display: flex;
+}
+
+main section div .btn {
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+}
+
+div .btn {
+    width: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    background: rgba(10, 0, 77, 0.7);
+}
+
+
+/* Header */
+
+header img {
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+
+/* main */
+
+/*justification largeur */
+.container {
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+main div h2 {
+    padding-top: 50px;
+}
+
+#backround {
+    background: linear-gradient(rgb(73, 225, 255), #a4e0f5, #9bf899);
+}
+
+#iphone {
+    margin-top: -300px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* photos horizontales pleine largeur*/
+.photo div {
+    width: 50%;
+}
+#photo {
+    width: 100%;
+}
+
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* id pour les rs s*/
+.rs-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer */
+
+div img {
+
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+#logo {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer div img {
+    margin: 80px;
+    text-align: center;
+    display: flex;
+}
+
+legend {
+    margin-bottom: 90px;
+}
+
+
+
+
+
+/*version mobile */
+/*version mobile */
+/*version mobile */
+/*version mobile */
+/*version mobile */
+
+@media screen and (max-width:767px) {
+
+
+    main div h2 {
+        padding-top: 50px;
+    }
+
+    h1 {
+        font-size: 18pt;
+    }
+
+    h2 {
+        font-size: 25pt;
+    }
+
+    h3 {
+        font-size: 30pt;
+    }
+
+    p {
+        font-size: 16pt;
+        font-family: "inter";
+        line-height: 25pt;
+        font-weight: 300;
+    }
+
+    legend {
+        font-size: 10pt;
+    }
+
+
+    .btn {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background: rgb(67, 94, 254, 1);
+        border-style: none;
+        border-radius: 25px;
+        font-family: "Inter";
+        font-weight: 500;
+        font-size: 14pt;
+        letter-spacing: 0, 7pt;
+        text-transform: uppercase;
+        margin: auto;
+        display: flex;
+    }
+
+    main section div .btn {
+        box-shadow: 2px 8px 16px rgba(0, 0, 0, 0.25);
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    div .btn {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .btn:hover {
+        background: rgba(10, 0, 77, 0.7);
+    }
+    main div h2 {
+        padding-top: 20px;
+    }
+
+    header img {
+        padding-top: 30px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        width: 280px;
+    }
+
+
+
+    #backround {
+        background: linear-gradient(rgb(73, 225, 255), #a4e0f5, #9bf899);
+    }
+
+   /* Main */
+
+/*justification largeur */
+    
+    .container {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+
+    main article {
+        margin: 16px;
+    }
+ 
+
+    #kv img {
+        width: 300px;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    #iphone {
+        margin-top: 0;
+    }
+
+    #iphone img {
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .photo div {
+        width: 100%;
+    }
+    
+    .photo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #photo {
+        width: 100%;
+    }
+
+    /* Footer */
+    
+
+
+    
+    #logo {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #logo div {
+        height: 100%;
+    }
+
+    #logo img {
+        width: 200px;
+    }
+
+    #rs img {
+        width: 40px;
+        text-align: center;
+        margin: 20px;
+        justify-content: center;
+        display: flex;
+    }
+
+    footer div img {
+        margin: 30px;
+    }
+
+    legend {
+        margin-bottom: 90px;
+    }
+
+}
